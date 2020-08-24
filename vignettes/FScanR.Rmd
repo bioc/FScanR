@@ -12,7 +12,7 @@ output:
   pdf_document:
     toc: true
 vignette: >
-  %\VignetteIndexEntry{ggtree}
+  %\VignetteIndexEntry{FScanR}
   %\VignetteEngine{knitr::rmarkdown}
   %\usepackage[utf8]{inputenc}
 ---
