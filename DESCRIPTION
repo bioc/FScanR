@@ -15,7 +15,8 @@ Depends:
 Imports:
     stats
 Suggests:
-    rmarkdown
+    knitr,
+	rmarkdown
 VignetteBuilder: knitr
 biocViews: Alignment, Annotation, Software
 RoxygenNote: 7.1.1
