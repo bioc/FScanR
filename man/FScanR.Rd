@@ -25,7 +25,8 @@ dataframe
 Identifies Programmed Ribosomal Frameshifting (PRF) events from mRNA/cDNA BLASTX output
 }
 \examples{
-FScanR(FScanR:::test_data)
+test_data <- read.table(system.file("extdata", "test.tab", package = "FScanR"), header=TRUE, sep="\t")
+FScanR(test_data)
 }
 \references{
 1. X Chen, Y Jiang, F Gao, W Zheng, TJ Krock, NA Stover, C Lu, LA Katz & W Song (2019). 
