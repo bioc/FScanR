@@ -38,8 +38,6 @@ Biocpkg <- function (pkg) {
 
 ```{r echo=FALSE, results='hide', message=FALSE}
 library(FScanR)
-library(ggplot2)
-library(ggpubr)
 ```
 
 # Abstract
