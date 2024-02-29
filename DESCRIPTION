@@ -1,7 +1,7 @@
 Package: FScanR
 Type: Package
 Title: Detect Programmed Ribosomal Frameshifting Events from mRNA/cDNA BLASTX Output
-Version: 1.13.0
+Version: 1.13.1
 Authors@R: c(
        person("Xiao", "Chen", email = "seanchen607@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5059-8846"))
        )
@@ -24,3 +24,4 @@ VignetteBuilder: knitr
 BugReports: https://github.com/seanchen607/FScanR/issues
 biocViews: Alignment, Annotation, Software
 RoxygenNote: 7.1.1
+PackageStatus: Deprecated
